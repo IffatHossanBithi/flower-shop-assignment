@@ -20,13 +20,14 @@ body{
 }
 .banner-intro{
     color: #272727;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
+    margin-bottom:30px;
     
 }
 .banner-des{
     color: rgba(39, 39, 39, 0.60);
-    font-size:14px;
+    font-size:12px;
     font-weight: 400;
     line-height: 20px;
     margin:30px 0px;
@@ -34,7 +35,47 @@ body{
 }
 
  .banner-pic1{
-    width: 350px;
-    margin-bottom: 0px;
-    
+    width: 400px;
+    margin-bottom:0px; 
+    margin-right:200px;
+     
+}
+.btn-primary1{
+    padding: 20px 40px;
+    border-radius: 8px;
+    border-style: none;
+    background-color:#E55473;
+    color: #fff;
+
+}
+/* Discount Section */
+.discount{
+    margin-top: 100px;
+    padding:40px 150px 0px 130px;
+    background:rgb(249, 216, 221);
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.span{
+    color: #E55473;
+}
+.section-title{
+    text-align: center;
+}
+.discount-des{
+    text-align:center;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.btn-primary2{
+    padding: 20px 40px;
+    border-radius: 8px;
+    border-style: none;
+    background-color:#E55473;
+    color: #fff;
+    margin-left:35%;
 }
