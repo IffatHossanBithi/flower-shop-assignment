@@ -51,6 +51,8 @@ body{
     color: #fff;
 
 }
+/* End Header Design */
+
 /* Featured Flower section  */
 .featured{
     margin-top: 120px;
@@ -80,8 +82,8 @@ body{
     
 }
 .flower-class1{
-    width:350px;
-    height:400px;
+    width:300px;
+    height:350px;
     border-top-left-radius:50%;
     border-top-right-radius:50%;
     background-color: #f5c4e5;
@@ -89,8 +91,8 @@ body{
     
 }
 .flower-class2{
-    width:350px;
-    height: 400px;
+    width:300px;
+    height:350px;
     border-top-left-radius:50%;
     border-top-right-radius:50%;
     background-color: #8fdce4;
@@ -98,8 +100,8 @@ body{
 
 }
 .flower-class3{
-    width:350px;
-    height: 400px;
+    width:300px;
+    height: 350px;
     border-top-left-radius:50%;
     border-top-right-radius:50%;
     background-color: #e2eff7;
@@ -108,7 +110,7 @@ body{
 .imgflower1{
     margin-left: 50px;
     margin-top: 70px;
-    width: 68%;   
+    width: 67.5%;   
 }
 .imgflower2{
     margin-left: 40px;
@@ -118,14 +120,14 @@ body{
 .imgflower3{
     margin-left: 60px;
     margin-top: 70px;
-    width: 63%;   
+    width: 62%;   
 }
 h5{ margin-top: 30px;
     text-align: center;
     text-decoration: underline;
 }
  .middle-flower{
-    margin-top:80px;
+    margin-top:70px;
     text-align: center;
     text-decoration: underline;
 }
@@ -186,15 +188,26 @@ h5{ margin-top: 30px;
     gap:10px;
     margin:0px 40px;
     margin-bottom:-50px;
+    justify-content:center;
+    margin-left:72px ;
 }
+.insta-flower{
+    
+    width:230px;
+    height:280px;
+}
+    
+/* End Instagram Section */
+
+/* Latest Deal Section */
 .latestdeal{
     background-image:url('Flower Asset/dealcover.png');
     height: 500px;
     background-repeat: no-repeat;
-    max-width:1440px;
+    max-width:950px;
     margin: 120px 150px 0px 150px;
-    border-radius:5px; 
-    justify-items: center;
+    border-radius:5px;
+    margin-left: 215px;
 }
 .latestdeal-title{
     padding-top: 70px;
@@ -212,12 +225,12 @@ margin-right: 80px;
 margin-top:10px;
 }
 .input-type{
-    margin-top: 30px;
-    width:500px;
+    margin-top: 40px;
+    width:400px;
     padding:15px;
     border-radius: 5px;
-    border: none;
-    margin-left:150px;
+    border:none;
+    margin-left:220px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 10px;
     font-weight: 400;
@@ -229,7 +242,8 @@ margin-top:10px;
     border:none;
     border-radius: 5px;
 }
-/* End Instagram Section */
+
+/* Latest Deal Section */
 
 /* Footer Section */
 .footer{margin-top:-120px;
